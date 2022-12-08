@@ -1,0 +1,23 @@
+"""Just MAX it V.2"""
+def main():
+    '''Thai'''
+    print("200 m")
+    number1 = ((200*100)/25)
+    print("= %.3f kueb" %number1)
+    number2 = ((200*100)/50)
+    print("= %.3f sok" %number2)
+    print("= %.3f wa" %(200/2))
+    print("= %.3f sen\n= %.3f yot\n" %((200/40), (200/16000)))
+    print("500 m")
+    print("= %.3f kueb\n= %.3f sok\n= %.3f wa" %(((500*100)/25), ((500*100)/50), (500/2)))
+    print("= %.3f sen\n= %.3f yot\n" %((500/40), (500/16000)))
+    print("1 km")
+    print("= %.3f kueb\n= %.3f sok\n= %.3f wa" %(((1000*100)/25), ((1000*100)/50), (1000/2)))
+    print("= %.3f sen\n= %.3f yot\n" %((1000/40), (1000/16000)))
+    print("2 km")
+    print("= %.3f kueb\n= %.3f sok\n= %.3f wa" %(((2000*100)/25), ((2000*100)/50), (2000/2)))
+    print("= %.3f sen\n= %.3f yot\n" %((2000/40), (2000/16000)))
+    print("5 km")
+    print("= %.3f kueb\n= %.3f sok\n= %.3f wa" %(((5000*100)/25), ((5000*100)/50), (5000/2)))
+    print("= %.3f sen\n= %.3f yot\n" %((5000/40), (5000/16000)))
+main()
